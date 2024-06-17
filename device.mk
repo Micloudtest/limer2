@@ -26,20 +26,12 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_TARGET_VNDK_VERSION := 30
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
-
-# Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-service-recovery \
-    android.hardware.gatekeeper@1.0-impl-recovery
-
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.hardware.gatekeeper=beanpod
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
