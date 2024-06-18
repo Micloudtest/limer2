@@ -127,7 +127,6 @@ BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Encryption
 TW_INCLUDE_CRYPTO := true
