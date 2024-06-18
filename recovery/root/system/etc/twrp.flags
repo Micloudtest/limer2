@@ -29,5 +29,5 @@
 /misc             emmc     /dev/block/platform/bootdevice/by-name/misc
 /persistent       emmc     /dev/block/platform/bootdevice/by-name/frp
 
-/sdcard1           auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="SD CARD";storage;wipeingui;removable;fsflags="utf8"
+/sdcard1          auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="SD CARD";storage;wipeingui;removable;fsflags="utf8"
 /usb_otg          auto     /dev/block/sda1  /dev/block/sda                     flags=display="USB OTG";storage;wipeingui;removable;fsflags="utf8"
