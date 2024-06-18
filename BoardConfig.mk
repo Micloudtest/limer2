@@ -165,9 +165,6 @@ TW_LOAD_VENDOR_MODULES := true
 TW_INCLUDE_PYTHON := true
 TW_EXCLUDE_APEX := true
 
-# TW Screenshot
-TW_INCLUDE_FB2PNG := true
-
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_FASTBOOTD := true
