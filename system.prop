@@ -13,8 +13,15 @@ ro.sys.usb.storage.type=mtp
 sys.usb.controller=musb-hdrc
 persist.sys.isUsbOtgEnabled=true
 ro.hardware=mt6768
-ro.debuggable=1
 ro.sf.lcd_density=440
 ro.treble.enabled=true
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 fbe.metadata.wrappedkey=true
+
+ro.vendor.mediatek.platform=MT6785
+vendor.gatekeeper.disable_spu=true
+ro.crypto.allow_encrypt_override=true
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.options=::v2
