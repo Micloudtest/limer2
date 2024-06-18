@@ -103,7 +103,6 @@ TARGET_COPY_OUT_PRODUCT := product
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
-BOARD_ROOT_EXTRA_FOLDERS := metadata
 
 # System as Root
 BOARD_SUPPRESS_SECURE_ERASE := true
@@ -133,7 +132,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Encryption
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # Hack: prevent anti rollback
